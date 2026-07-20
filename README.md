@@ -38,3 +38,5 @@ review.
 Push to `main`; GitHub Pages (Settings → Pages → Deploy from branch → `main`
 / root) publishes automatically. `CNAME` binds the custom domain; `.nojekyll`
 skips the Jekyll build.
+
+**Status:** DNS on Cloudflare (unproxied) pointing at GitHub Pages; HTTPS cert provisioning in progress.
