@@ -32,7 +32,7 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); }
 
 .wrap { max-width: 1020px; margin: 0 auto; padding: 0 24px; }
