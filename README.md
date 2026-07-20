@@ -39,4 +39,6 @@ Push to `main`; GitHub Pages (Settings → Pages → Deploy from branch → `mai
 / root) publishes automatically. `CNAME` binds the custom domain; `.nojekyll`
 skips the Jekyll build.
 
-**Status:** DNS on Cloudflare (unproxied) pointing at GitHub Pages; HTTPS cert provisioning in progress.
+**Status:** live at https://simmerandsear.com — Cloudflare DNS (DNS-only mode)
+→ GitHub Pages, GitHub-managed Let's Encrypt cert, Enforce HTTPS on. Keep the
+Cloudflare proxy off; proxied records block GitHub's cert renewal.
